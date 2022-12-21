@@ -11,8 +11,8 @@ function AppRoutes() {
             <Cabecalho />
                 <Container>
                     <Routes>
-                        <Route path="/" element={<Inicio />}></Route>
-                        <Route path="/favoritos" element={<Favoritos/>}></Route>
+                        <Route path="/" element={<Inicio />}> </Route>
+                        <Route path="/favoritos" element={<Favoritos />}> </Route>
                     </Routes>
                 </Container>
             <Rodape />
